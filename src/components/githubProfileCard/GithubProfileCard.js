@@ -6,6 +6,8 @@ import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 
 export default function GithubProfileCard({prof}) {
+  const linkdinStaticProfilePicture =
+    "https://media.licdn.com/dms/image/C4E03AQFGnjLlrl7VGA/profile-displayphoto-shrink_800_800/0/1624444866706?e=1715817600&v=beta&t=UjLMMZWw5RBtYKqbZ24HSAIIWk0mFZ_OC-QINn4BJ0E";
   if (isHireable) {
     prof.hireable = "Yes";
   } else {
@@ -50,7 +52,7 @@ export default function GithubProfileCard({prof}) {
           </div>
           <div className="image-content-profile">
             <img
-              src={prof.avatarUrl}
+              src={linkdinStaticProfilePicture || prof.avatarUrl}
               alt={prof.name}
               className="profile-image"
             />
