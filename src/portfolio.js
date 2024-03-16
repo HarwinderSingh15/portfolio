@@ -196,7 +196,7 @@ const workExperiences = {
     {
       role: "Senior React-Native Developer",
       company: "iTechnolabs Software",
-      companylogo: require("./assets/images/iTech.jpg"),
+      companylogo: require("./assets/images/iTech.png"),
       date: "Aug 2022 – Present",
       desc: "At iTechnolabs Software, I hold the role of Senior React-Native Developer, where I play a pivotal role in guiding our team through the development process. Leveraging my expertise, I provide mentorship and assistance to ensure the seamless creation of high-quality hybrid mobile applications that meet and exceed our clients' expectations."
     },
