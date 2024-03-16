@@ -138,7 +138,7 @@ const educationInfo = {
     {
       schoolName:
         "Sri Sukhmani Institute of Engineering & Technology - Dera Bassi",
-      logo: require("./assets/images/sukhmani.jpeg"),
+      logo: require("./assets/images/sukhmani.png"),
       subHeader: "B. Tech in Computer Science Engineering",
       duration: "2019",
       desc: "Punjab Technical University"
