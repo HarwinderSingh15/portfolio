@@ -18,31 +18,29 @@ export default function StartupProject() {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="projects">
-        <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
-          <p
-            className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
-            }
-          >
-            {bigProjects.subtitle}
-          </p>
+    <div className="main" id="projects">
+      <div>
+        <h1 className="skills-heading">{bigProjects.title}</h1>
+        <p
+          className={
+            isDark ? "dark-mode project-subtitle" : "subTitle project-subtitle"
+          }
+        >
+          {bigProjects.subtitle}
+        </p>
 
-          <div className="projects-container">
-            {bigProjects.projects.map((project, i) => {
-              return (
-                <div
-                  key={i}
-                  className={
-                    isDark
-                      ? "dark-mode project-card project-card-dark"
-                      : "project-card project-card-light"
-                  }
-                >
+        <div className="projects-container">
+          {bigProjects.projects.map((project, i) => {
+            return (
+              <div
+                key={i}
+                className={
+                  isDark
+                    ? "dark-mode project-card project-card-dark"
+                    : "project-card project-card-light"
+                }
+              >
+                <Fade left={i % 2 === 0} right={1 % 2 !== 0} duration={1000}>
                   {project.image ? (
                     <div className="project-image">
                       <img
@@ -83,12 +81,12 @@ export default function StartupProject() {
                       </div>
                     ) : null}
                   </div>
-                </div>
-              );
-            })}
-          </div>
+                </Fade>
+              </div>
+            );
+          })}
         </div>
       </div>
-    </Fade>
+    </div>
   );
 }
