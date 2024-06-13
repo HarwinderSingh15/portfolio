@@ -20,26 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Mantu Kumar",
-  title: "Hi all, I'm Mantu",
+  username: "Harwinder Singh",
+  title: "Hi all, I'm Harwinder",
   subTitle: emoji(
-    "A passionate and experienced Software Developer 🚀 having 5+ years of expertise in building Mobile applications with JavaScript / React Native / Java / Swift and some other cool libraries and frameworks."
+    "A passionate and experienced Software Developer 🚀 with over 2 years of expertise in building mobile applications using JavaScript, React Native, and web applications with React / Next.js. Skilled in automation with Python and Selenium, and knowledgeable in Node.js and other modern libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/18Vp_DXQli1vWvEADsdf-FTYTQuU8vw92/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1DUL_Y6SoRnMhibE_ktRZt_xpvNS_XlWA/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/EndLess728",
-  linkedin: "https://www.linkedin.com/in/mantu-kumar-16439117b",
-  gmail: "aryanmk.mk5@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
+  github: "https://github.com/HarwinderSingh15",
+  linkedin: "https://www.linkedin.com/in/harwinder-singh-5189a71ab/",
+  gmail: "harwindersinghsaini015@gmail.com",
   // facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@EndLess728",
-  stackoverflow: "https://stackoverflow.com/users/10422074/mantu",
+  medium: "https://medium.com/@harwindersinghsaini015",
+  stackoverflow: "https://stackoverflow.com/users/18721901/harwinder-singh",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAFTING AWESOME MOBILE EXPERIENCES WITH A TOUCH OF MAGIC",
+  subTitle: "CRAFTING AWESOME MOBILE & WEB EXPERIENCES WITH A TOUCH OF MAGIC",
   skills: [
     emoji(
       "⚡ Transforming prototypes and wireframes into stunning app and UI components"
@@ -74,7 +73,19 @@ const skillsSection = {
     ),
     emoji(
       "⚡ Implementing robust testing methodologies to ensure app reliability and performance across various devices and platforms"
-    )
+    ),
+    emoji(
+      "⚡ Proficient in building scalable and high-performance solutions with React.js, React Native, and Next.js"
+    ),
+    emoji(
+      "⚡ Experienced in developing and maintaining mobile applications for iOS and Android platforms"
+    ),
+    emoji(
+      "⚡ Skilled in writing clean, efficient, and maintainable code"
+    ),
+    emoji(
+      "⚡ Expertise in responsive design principles to ensure applications work across various devices and screen sizes"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -90,20 +101,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "Swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Next",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Nodejs",
+      fontAwesomeClassname: "fab fa-node-js"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "Realm MongoDB",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "yarn",
+      fontAwesomeClassname: "fab fa-yarn"
     },
     {
       skillName: "firebase",
@@ -137,11 +156,11 @@ const educationInfo = {
   schools: [
     {
       schoolName:
-        "Sri Sukhmani Institute of Engineering & Technology - Dera Bassi",
-      logo: require("./assets/images/sukhmani.png"),
-      subHeader: "B. Tech in Computer Science Engineering",
-      duration: "2019",
-      desc: "Punjab Technical University"
+        "Maharaja Ranjit Singh Punjab Technical University - Bathinda",
+      logo: require("./assets/images/mrsptulogo.png"),
+      subHeader: "BCA",
+      duration: "2024",
+      desc: "Maharaja Ranjit Singh Punjab Technical University"
     },
     {
       schoolName:
