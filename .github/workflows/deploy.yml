@@ -2,7 +2,7 @@ name: Build and Deploy
 env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }} # This is automatically set by Github Actions
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is automatically set by Github Actions
   USE_GITHUB_DATA: "true"
   MEDIUM_USERNAME: "HarwinderSingh15" # Change this to your medium username
 on:
@@ -36,7 +36,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }} # This is provided by GitHub.
+          token: ${{ secrets.GITHUB_TOKEN }} # This is provided by GitHub.
           repository-name: HarwinderSingh15/HarwinderSingh15.github.io # This is the repo where build will be deployed
           branch: main # The branch the action should deploy to.
           folder: build # The folder the action should deploy.
