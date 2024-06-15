@@ -80,12 +80,10 @@ const skillsSection = {
     emoji(
       "⚡ Experienced in developing and maintaining mobile applications for iOS and Android platforms"
     ),
-    emoji(
-      "⚡ Skilled in writing clean, efficient, and maintainable code"
-    ),
+    emoji("⚡ Skilled in writing clean, efficient, and maintainable code"),
     emoji(
       "⚡ Expertise in responsive design principles to ensure applications work across various devices and screen sizes"
-    ),
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -135,7 +133,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Sockets",
       fontAwesomeClassname: "fas fa-bolt-lightning"
-    },
+    }
   ],
 
   display: true // Set false to hide this section, defaults to true
@@ -147,8 +145,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName:
-        "Lala Lajpat Rai Memorial Polytechnic College - Moga",
+      schoolName: "Lala Lajpat Rai Memorial Polytechnic College - Moga",
       logo: require("./assets/images/mrsptulogo.png"),
       subHeader: "BCA",
       duration: "2024",
@@ -161,7 +158,7 @@ const educationInfo = {
       subHeader: "Diploma in Computer Science",
       duration: "2014",
       desc: "Sant Longowal Institute of Engineering and Technology"
-    },
+    }
     // {
     //   schoolName: "Govt.Model Sanskriti Sr. Sec. School - Sector 20 Panchkula",
     //   logo: require("./assets/images/school.png"),
@@ -224,7 +221,7 @@ const workExperiences = {
       companylogo: require("./assets/images/redsky.jpg"),
       date: "Feb 2022 – Feb 2023",
       desc: "I held the position of Junior Frontend Developer at Redsky Advance Solutions Pvt. Ltd. from February 2022 to February 2023. During my tenure, I specialized in utilizing React.js, React-Native, and Next.js to develop dynamic and responsive applications. Working alongside experienced developers, I contributed to the creation of innovative solutions that enhanced user experience and supported the company's objectives."
-    },
+    }
     // {
     //   role: "iOS & React-Native Developer",
     //   company: "Immanent Solutions",
@@ -250,101 +247,64 @@ const bigProjects = {
   subtitle: "THE PROJECTS I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/mealed.webp"),
-      projectName: "Mealed",
+      image: require("./assets/images/simplified.webp"),
+      projectName: "Simplified",
       projectDesc:
-        "Mealed is food ordering app. There are three apps available Customer App, Restaurant App and Driver App",
+        "Simplified is a AI powered design and collaboration for modern marketing teams",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://mealed.net/"
+          url: "https://simplified.com/"
         }
         //  you can add extra buttons here.
       ]
     },
 
     {
-      image: require("./assets/images/iSend.webp"),
-      projectName: "iSend",
+      image: require("./assets/images/ELD.webp"),
+      projectName: "ELD App",
       projectDesc:
-        "Get your Parcel deliveredTo their destination at the right time in the quickest way. There are two apps Customer App, Driver App",
+        "Eld lets you be fulfilled and engaged together with like-minded. Create and find activities. Chat with friends. Engage together.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.isendlogistics.com/"
+          url: "https://play.google.com/store/apps/details?id=com.eldApp&pcampaignid=web_share"
         }
       ]
     },
     {
-      image: require("./assets/images/medsonwheels.webp"),
-      projectName: "Meds On Wheels",
+      image: require("./assets/images/ELD.webp"),
+      projectName: "ELD Analytics Portal",
       projectDesc:
-        "Meds On Wheels is used to Browse local pharmacies and order the medication to your door while tracking the delivery throughout the full process.",
+        "One can sponsor their activities within the ELD app and view analytics data on this portal with charts and statistics",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://meds-on-wheels.com/"
+          url: "https://analytics.eldapp.net/"
         }
       ]
     },
     {
-      image: require("./assets/images/talkie.png"),
-      projectName: "Talkie",
+      image: require("./assets/images/igrab.webp"),
+      projectName: "iGrab",
       projectDesc:
-        "Speaking a foreign language isn’t always easy. Talkie is an app that helps your students learn by doing.Little but often. This app has three modules Admin, Teacher, Student",
+        "iGrab is solution for downloading reels from Facebook and Instagram seamlessly without the inruption of ads.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://talkietheapp.com/"
-        }
-      ]
-    },
-
-    {
-      image: require("./assets/images/emove.webp"),
-      projectName: "EMove Ride",
-      projectDesc:
-        "EMove Ride app provides convenience to the customers to book a taxi and reach their destination. There are two apps Customer App, Driver App",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://emoveride.co.uk/"
+          url: "https://play.google.com/store/apps/details?id=com.igrab&pcampaignid=web_share"
         }
       ]
     },
     {
-      image: require("./assets/images/ror.webp"),
-      projectName: "Ride O Ride",
+      image: require("./assets/images/volley_engine.webp"),
+      projectName: "VolleyEngine",
       projectDesc:
-        "Ride O Ride provides comfortable travel solution at a cost-effective price. There are two apps Customer App, Driver App",
+        "VolleyEngine make easy for High School athletes to connect DIRECTLY with college coaches saving thousands of dollars in recruiting services",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.suffescom.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/eventickets.webp"),
-      projectName: "EvenTickets",
-      projectDesc:
-        "The app will scan to check the validity of tickets generated from EvenTickets website. It’s like a tool for Organizer to validate the original and duplicate tickets for their event.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://eventickets.com.au/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/yogavivo.webp"),
-      projectName: "Yogavivo",
-      projectDesc:
-        "YOGA AND TRAINING WHERE YOU ARE Yogavivo makes it easier for you to get on the yoga mat, and to make quality yoga available no matter where you are.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://yogavivo.dk/"
+          url: "https://play.google.com/store/apps/details?id=com.volleyengine.app&pcampaignid=web_share"
         }
       ]
     }
@@ -473,8 +433,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "aryanmk.mk5@gmail.com"
+  number: "+91-8837616294",
+  email_address: "harwindersinghsaini015@gmail.com"
 };
 
 // Twitter Section
