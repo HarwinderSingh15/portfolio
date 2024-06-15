@@ -2,7 +2,8 @@ name: Build and Deploy
 env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is automatically set by Github Actions
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is automatically set by Github Actions but you to create one with GITHUB_TOKEN
+                                                      # see https://github.com/settings/tokens
   USE_GITHUB_DATA: "true"
   MEDIUM_USERNAME: "HarwinderSingh15" # Change this to your medium username
 on:
