@@ -128,11 +128,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Google Maps",
-      fontAwesomeClassname: "fas fa-map-location"
+      fontAwesomeClassname: "fas fa-map"
     },
     {
       skillName: "Sockets",
-      fontAwesomeClassname: "fas fa-bolt-lightning"
+      fontAwesomeClassname: "fas fa-bolt"
     }
   ],
 
@@ -356,19 +356,19 @@ const achievementSection = {
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   imageAlt: "PWA Logo",
+    //   footerLink: [
+    //     {name: "Certification", url: ""},
+    //     {
+    //       name: "Final Project",
+    //       url: "https://pakistan-olx-1.firebaseapp.com/"
+    //     }
+    //   ]
+    // }
   ],
   display: false // Set false to hide this section, defaults to true
 };
