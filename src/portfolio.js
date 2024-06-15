@@ -117,33 +117,25 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node-js"
     },
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "yarn",
+      skillName: "Yarn",
       fontAwesomeClassname: "fab fa-yarn"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "Stripe",
-      fontAwesomeClassname: "fab fa-stripe"
+      skillName: "Google Maps",
+      fontAwesomeClassname: "fas fa-map-location"
     },
     {
-      skillName: "Paypal",
-      fontAwesomeClassname: "fab fa-paypal"
+      skillName: "Sockets",
+      fontAwesomeClassname: "fas fa-bolt-lightning"
     },
-    {
-      skillName: "GitHub Actions",
-      fontAwesomeClassname: "fab fa-github"
-    },
-    {
-      skillName: "CI/CD",
-      fontAwesomeClassname: "fas fa-code-branch"
-    }
   ],
 
   display: true // Set false to hide this section, defaults to true
@@ -156,7 +148,7 @@ const educationInfo = {
   schools: [
     {
       schoolName:
-        "Maharaja Ranjit Singh Punjab Technical University - Bathinda",
+        "Lala Lajpat Rai Memorial Polytechnic College - Moga",
       logo: require("./assets/images/mrsptulogo.png"),
       subHeader: "BCA",
       duration: "2024",
@@ -164,21 +156,20 @@ const educationInfo = {
     },
     {
       schoolName:
-        "Government Model Senior Secondary School - Sector 8 Chandigarh",
-      logo: require("./assets/images/cbse.jpg"),
-      subHeader: "Senior Secondary (12th)",
+        "Sant Longowal Institute of Engineering and Technology - Sangrur",
+      logo: require("./assets/images/logo1.png"),
+      subHeader: "Diploma in Computer Science",
       duration: "2014",
-      desc: "Central Board of School Education"
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Sant Longowal Institute of Engineering and Technology"
     },
-    {
-      schoolName: "Govt.Model Sanskriti Sr. Sec. School - Sector 20 Panchkula",
-      logo: require("./assets/images/school.png"),
-      subHeader: "Secondary (10th)",
-      duration: "2011",
-      desc: "Board of School Education Haryana"
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+    // {
+    //   schoolName: "Govt.Model Sanskriti Sr. Sec. School - Sector 20 Panchkula",
+    //   logo: require("./assets/images/school.png"),
+    //   subHeader: "Secondary (10th)",
+    //   duration: "2011",
+    //   desc: "Board of School Education Haryana"
+    //   // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // }
   ]
 };
 
@@ -197,7 +188,15 @@ const techStack = {
     },
     {
       Stack: "React-Native",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "React",
       progressPercentage: "95%"
+    },
+    {
+      Stack: "Nextjs",
+      progressPercentage: "80%"
     },
     {
       Stack: "Github",
@@ -213,26 +212,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior React-Native Developer",
+      role: "Associate Frontend Developer (React-Native, Reactjs, Nextjs)",
       company: "iTechnolabs Software",
       companylogo: require("./assets/images/iTech.png"),
-      date: "Aug 2022 – Present",
-      desc: "At iTechnolabs Software, I hold the role of Senior React-Native Developer, where I play a pivotal role in guiding our team through the development process. Leveraging my expertise, I provide mentorship and assistance to ensure the seamless creation of high-quality hybrid mobile applications that meet and exceed our clients' expectations."
+      date: "Feb 2023 – Present",
+      desc: "As a Frontend Developer at iTechnolabs Software, specializing in React-Native, React.js, and Next.js. In this role, I am committed to designing and implementing sophisticated mobile and web interfaces that prioritize user experience and technical excellence. I collaborate closely with cross-functional teams to drive continuous improvement and deliver high-quality solutions that meet our clients' needs"
     },
     {
-      role: "Senior React-Native Developer",
-      company: "Suffescom Solutions Pvt. Ltd.",
-      companylogo: require("./assets/images/suffescom.png"),
-      date: "Oct 2021 – Aug 2022",
-      desc: "As a Senior React-Native Developer, I spearhead the development of high-performance hybrid mobile applications at Suffescom Solutions Pvt. Ltd. Leveraging my expertise, I lead a team in crafting cutting-edge solutions that drive business growth and user satisfaction."
+      role: "Junior Frontend Developer (Reactjs, React-Native, Nextjs)",
+      company: "Redsky Advance Solutions Pvt. Ltd.",
+      companylogo: require("./assets/images/redsky.jpg"),
+      date: "Feb 2022 – Feb 2023",
+      desc: "I held the position of Junior Frontend Developer at Redsky Advance Solutions Pvt. Ltd. from February 2022 to February 2023. During my tenure, I specialized in utilizing React.js, React-Native, and Next.js to develop dynamic and responsive applications. Working alongside experienced developers, I contributed to the creation of innovative solutions that enhanced user experience and supported the company's objectives."
     },
-    {
-      role: "iOS & React-Native Developer",
-      company: "Immanent Solutions",
-      companylogo: require("./assets/images/Immanent.png"),
-      date: "June 2018 – Oct 2021",
-      desc: "At Immanent Solutions, I embarked on my professional journey as an iOS Developer, transitioning seamlessly into the realm of React-Native for hybrid mobile app development. I played a pivotal role in delivering innovative solutions, laying the foundation for my expertise in mobile app development."
-    }
+    // {
+    //   role: "iOS & React-Native Developer",
+    //   company: "Immanent Solutions",
+    //   companylogo: require("./assets/images/Immanent.png"),
+    //   date: "June 2018 – Oct 2021",
+    //   desc: "At Immanent Solutions, I embarked on my professional journey as an iOS Developer, transitioning seamlessly into the realm of React-Native for hybrid mobile app development. I played a pivotal role in delivering innovative solutions, laying the foundation for my expertise in mobile app development."
+    // }
   ]
 };
 
