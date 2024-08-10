@@ -262,7 +262,7 @@ const bigProjects = {
 
     {
       image: require("./assets/images/ELD.webp"),
-      projectName: "ELD App",
+      projectName: "ELD",
       projectDesc:
         "Eld lets you be fulfilled and engaged together with like-minded. Create and find activities. Chat with friends. Engage together.",
       footerLink: [
@@ -272,18 +272,18 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/ELD.webp"),
-      projectName: "ELD Analytics Portal",
-      projectDesc:
-        "One can sponsor their activities within the ELD app and view analytics data on this portal with charts and statistics",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://analytics.eldapp.net/"
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/ELD.webp"),
+    //   projectName: "ELD Analytics Portal",
+    //   projectDesc:
+    //     "One can sponsor their activities within the ELD app and view analytics data on this portal with charts and statistics",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://analytics.eldapp.net/"
+    //     }
+    //   ]
+    // },
     {
       image: require("./assets/images/igrab.webp"),
       projectName: "iGrab",
