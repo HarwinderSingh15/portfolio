@@ -4,7 +4,6 @@ env:
   GITHUB_USERNAME: ${{ github.repository_owner }}
   REACT_APP_GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
   USE_GITHUB_DATA: "true"
-  MEDIUM_USERNAME: "HarwinderSingh15"
 on:
   workflow_dispatch:
   push:
